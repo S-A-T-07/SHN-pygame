@@ -1,37 +1,37 @@
-# Example file shoscreeng a basic pygame "game loop"
 import pygame
 
-
+# Main Game function
 def MainGameFunction():
 
-    # pygame setup
+    #? pygame setup
     pygame.init()
 
-    # Varible
+    #? Varible
     size    = (1280, 720)
     BGCOLOR = (255, 255, 255)
     
+    #? Character 
+    #* sprite 
+    character = pygame.image.load('assets/zombieGreen.png')
+
+    #* sprite position
     x = 50
     y = 50
-    width = 50
-    height = 50
-    vel = 5
+
+    #* sprite size
+    width = 40
+    height = 60
+
+    #* sprite velocity
+    vel = 10
     
-    
-    # walkRight = [pygame.image.load('assets/zombieGreen.png')]
-    # walkLeft = [pygame.image.load('assets/zombieGreen.png')]
-    
-    left = False
-    right = False
-    walkCount = 0
-    
-    # # Config 
+    # Config 
     screen = pygame.display.set_mode(size)
     pygame.display.set_caption("Zombie Zone")
 
     clock = pygame.time.Clock()
 
-
+    # Main game Loop
     running = True
     while running:
 
@@ -50,9 +50,8 @@ def MainGameFunction():
         if keys[pygame.K_DOWN]:
             y += vel
 
-
-
-        pygame.draw.rect(screen, (255,0,0), (x, y, width, height))  #This takes: screendow/surface, color, rect 
+        screen.blit(character, (x, y, width, height))
+        
         pygame.display.update()
 
         screen.fill(BGCOLOR)
@@ -61,5 +60,4 @@ def MainGameFunction():
 
         clock.tick(60)  # limits FPS to 60
 
-    
     pygame.quit()
