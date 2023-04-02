@@ -3,8 +3,6 @@
 
 
 # Zombie Zone
-Long Description about project. This project do that. This project is awesome...
-
 
 It's basically a shooting game. The player can loot  guns, grenade, landmine, med kits and other supporting things for his/her survival by killing zombies. Player gets the most valuable and advantaged loots when killing a zombie.
 Within the time limit the player should take maximum number of kills which helps in increasing the rank score.
