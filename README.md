@@ -21,10 +21,14 @@ Create a Virtual environment with the following configuration
   
    - open terminal and navigate to the project folder
    - To install poetry, run `pip install poetry` or `pip3 install poetry` depending on your os.
-  
 - setup the project
    - To install all the dependencies, run `poetry install`
    - To activate the environment, run `poetry shell`
 
+Optional methods:
+
+- You can use your preferred Virtual environment
+  - after creating the environment, run `pip install -r requirements.txt` to install all the dependencies
+  
 ## How to Run
-  - run the [main.py](test/main.py) file
+  - Run the [main.py](test/main.py) file 
