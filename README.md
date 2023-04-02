@@ -11,10 +11,10 @@ Within the time limit the player should take maximum number of kills which helps
 1. [Soumya Annie Thomas](https://github.com/S-A-T-07)
 2. [Akhil B Xavier](https://github.com/winter-x64)
 ## Link to product walkthrough
-[ link to video ]
+[ Video walkthrough ](https://drive.google.com/file/d/1v1S2x87yD7qwDRAakMWQ2g16HmrOVOgl/view?usp=sharing)
 ## How it Works ?
-1. Explaining the working of project
-2. Embed video of project demo
+1. Use the arrow keys to navigate ( Move the play )
+2. use the X to closes the window
 ## Libraries used
 pygame - 2.3.0
 ## How to configure
@@ -30,7 +30,7 @@ Create a Virtual environment with the following configuration
 Optional methods:
 
 - You can use your preferred Virtual environment
-  - after creating the environment, run `pip install -r requirements.txt` to install all the dependencies
+  - after creating the environment and install all the dependencies using the requirements.txt file, run `pip install -r requirements.txt`.
   
 ## How to Run
-  - run the [main.py](test/main.py) file
+  - run the [main.py](test/main.py) file, Run `python main.py`
