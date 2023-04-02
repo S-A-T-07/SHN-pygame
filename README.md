@@ -3,7 +3,9 @@
 
 
 # Zombie Zone
-Long Description about project. This project do that. This project is awesome...
+
+It's basically a shooting game. The player can loot  guns, grenade, landmine, med kits and other supporting things for his/her survival by killing zombies. Player gets the most valuable and advantaged loots when killing a zombie.
+Within the time limit the player should take maximum number of kills which helps in increasing the rank score.
 ## Team members
 
 1. [Soumya Annie Thomas](https://github.com/S-A-T-07)
@@ -31,4 +33,4 @@ Optional methods:
   - after creating the environment, run `pip install -r requirements.txt` to install all the dependencies
   
 ## How to Run
-  - Run the [main.py](test/main.py) file 
+  - run the [main.py](test/main.py) file
